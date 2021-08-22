@@ -1,0 +1,430 @@
+body {
+		width:100%;
+		background-image:url(Image/anhnenham.jpg);
+		overflow-x: hidden;
+	}	
+div.header img{	
+		width:250px;
+		height:150px;
+		margin-left:800px;	
+		border-radius:50%;	
+	}
+div.header li{
+	list-style-type:none;
+	margin-left:85%;
+	margin-top:-80px;
+	}	
+
+hr{width:250px;}
+#hamster hr{width:50%;}
+	
+#search input{
+		width:170px;
+		height:35px;
+		margin-top:-40px;
+		margin-left:150px;
+		border:0.5px solid;
+		border-radius:40px/80px;
+		outline:none;	
+	}
+#search input[type="Text"]:focus{
+		width:300px;
+		background-color:#0CF;
+	}
+	
+nav{background-image: linear-gradient(#87CEEB, #FFB6C1);margin:-10px;}
+#menu{
+	width:100%;
+	height:70px;
+	margin-top:50px;
+	font-size:30px;
+	display:flex; 
+	justify-content:center;}
+#menu li{
+	margin-top:10px;
+	margin-left:50px;
+	list-style:none;
+	float:left;}
+#menu li a{
+	display:block;
+	color:#FFF;
+	text-decoration:none;}
+#menu li:hover>a{
+	height:60px;
+	color:#333;}
+#sub{
+	width:11%;
+	margin-top:-15px;
+	font-size:28px;
+	display:none;
+	position:absolute;
+	border-radius:5px 5px 60px 60px;
+	z-index:10;}
+#sub li{margin-left:0px;height:30px;}
+#menu li #sub{background-image: linear-gradient(#FFB6C1, #87CEEB);}
+#menu li:hover>#sub{display:block;}	
+
+div.product a{
+	text-decoration:none;
+	color:#000;
+	display:block;	
+	}
+div.product li{
+	font-size:20px;
+	display:inline;
+	}
+div.product{margin-bottom:400px;}
+div.product img{
+	width:600px;
+	margin-left:-40px;
+	}
+#pro1 {
+	width:275px;
+	list-style-type:none;
+	display:block;
+	margin-left:300px;
+	margin-top:0px;
+	position:fixed;
+	}
+#pro1 img{
+	width:330px;
+	height:330px;
+	margin-left:-340px;
+	margin-top:-325px;
+	border-radius:30% 50% 50% 10%;
+	}
+#pro1 h3{
+	font-style:normal; 
+	margin-bottom:10px; 
+	margin-top:10px;
+	color:#F4A460;
+	}	
+#pro1 a:hover{
+	background:#999;
+	color:#000;}
+h1 {color:#F08080;}
+h3{color:#F4A460;}
+div.shops, .hamsters, .origin, .dd, .behaviors, .img, .feeds, .ss, .types, .end{
+			font-size:20px;
+			width:65%;
+			margin-left:34%;
+			display:flex;
+			text-align:center;} 
+div.shops{
+	margin-top:-21%;
+	flex-direction:column;
+	}
+div.shops a{text-decoration:none; color:#F08080;}
+div.shop{width:100%;}
+div.shopimg{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;}
+div.shopimg1{width:32%;padding:7px;}
+div.shopimg1 img{
+	width:100%;
+	height:80%;
+	}
+div.hamsters {flex-direction:column;}
+div.hams{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;}
+div.ham1{width:33%;}
+div.ham1 img{width:100%; height:80%;}
+div.origin{flex-wrap:wrap;}
+div.origin h1{margin-left:20%;}
+div.ori{width:46%; padding:20px;}
+div.ori img{
+	width:100%;
+	height:100%; 
+	border-radius:10%;}
+div.dd{
+	background-image:url(Image/anhnenham2.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	color:#FFF;
+	display:block;
+	text-align:left;
+	}
+div.dd h1{margin-left:18%;}
+div.dd h3{margin-left:2%; text-align:left;}
+div.behaviors{
+	margin-top:50px;
+	flex-wrap:wrap;
+	}
+div.behaviors h1{margin-left:25%;}
+div.behavior {width:49%; padding:5px;}
+div.behavior img{
+	width:100%;
+	height:400px;
+	border-radius: 5% 20%;}
+div.img {margin-top:50px;}
+div.img img{width:80%; height:300px;}
+div.mt {
+	width:25%;
+	margin-left:70%;
+	margin-top:-200px;
+	font-size:20px;
+	background-color:#CFF;}
+div.mt h1{color:#F08080;}
+div.feeds{
+	margin-top:50px;
+	flex-wrap:wrap;
+	}
+div.feeds h1{margin-left:30%;}
+div.feed{
+	width:49%;
+	padding:5px;
+	}
+div.feed img{
+	width:100%; 
+	height:100%;
+	border-radius: 5% 40%;}
+div.ss{
+		background-image:url(Image/anhnenham3.jpg);	
+		background-attachment:fixed;
+		background-size:cover;
+		color:#FFF;
+		display:block;
+		text-align:left;
+	}
+div.types {flex-wrap:wrap;}
+div.types h1{margin-left:25%;}
+div.type{
+			width:47%;
+			padding:15px;	
+	}
+div.type img{
+	width:50%;
+	height:300px;
+	border-radius:50%;}
+div.end {
+			flex-wrap:wrap;
+			background-image:url(Image/anhnenham1.jpg);
+			background-attachment:fixed;
+			background-size:cover;
+			color:#FFF;	
+			text-align:left; 		
+	}
+div.end1{
+	width:48%;
+	height:900px;
+	border:solid 2px #CCCCCC;
+	margin:10px;
+	border-radius:10% 10% 10% 10%;}	
+div.end1 h1, h3{text-align:center;}
+div.end1 h4{color:#CF9; margin-left:2%;}
+
+#top {
+	width:40px;
+	height:40px;
+	display: none;
+	position: fixed;
+	bottom: 60px;
+	right: 20px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color:#F08080;
+	cursor: pointer;
+	border-radius:50%;
+	opacity: 0.7;
+}
+
+#top:hover {background-color:#FFF;}
+#top img{
+	border-radius:50%;  
+	width:25px;}
+
+	
+footer {
+	background-image:linear-gradient(0deg, #FFB6C1, #87CEEB);
+	font-size:20px;
+	font-family:none;
+	margin:-10px;
+	}
+div.footer{
+	width:102%;
+	height:400px;
+	margin-left:140px;
+	margin-top:50px;
+	display:flex;
+	flex-wrap: wrap;}
+div.text{
+	width:20%;
+	height:380px;
+	padding:10px;}
+div.text img{
+	width:300px;
+	height:160px;
+	border-radius:50%;}
+div.text p{
+	text-align:left;
+	margin-top:-10px;}
+div.text iframe{
+	width:360px; 
+	height:160px;
+	margin-top:-20px;}
+
+i.fa-arrow-up{font-size:30px;}	
+i.fa-shopping-cart{color:#00BFFF; font-size:40px;}
+i.fa-mailchimp {color:#900; font-size:40px;}
+i.fa-house-damage {color:#C33;font-size:40px;}
+i.fa-earlybirds {color:#000; font-size:40px;}
+i.fa-gift {color:#F00;font-size:40px;}
+i.fa-star {color:#FF0;}
+i.fa-firefox-browser {color:#F33;}
+i.fa-utensils {color:#36F;}
+i.fa-medkit {color:#F00;}
+i.fa-angellist {color:#C06;}
+i.fa-home{color:#C06;}
+i.fa-envelope{color:#C06;}
+i.fa-phone-alt{color:#C06;}
+i.fa-facebook{color:#03F;font-size:40px;}
+i.fa-instagram{
+	font-size:40px;
+	margin-left:15px;
+	background-image:linear-gradient(purple, pink);
+	border-radius:50%;	
+	}
+i.fa-twitter{
+	font-size:40px;
+	background-color:#06F;
+	color:#FFF;
+	margin-left:15px;	
+	border-radius:50%;
+	}
+i.fa-envelope-open{
+	font-size:40px;
+	background-color:#000;
+	color:#CCC;
+	margin-left:15px;	
+	border-radius:50%;
+	}
+i.fa-youtube{
+	font-size:40px;
+	background-color:#F00;
+	color:#FFF;	
+	border-radius:50%;
+	margin-left:15px;	
+	}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+	body{width:100%;}
+	div.header img{
+		width:15%;
+		height:5%;
+		margin-left:45%;	
+		}
+	#search input{margin-left:0px;}
+	#search input[type="Text"]:focus{width:200px;}
+	#menu{
+		height:50px;
+		font-size:20px;
+		margin-left:-50px;}
+	#menu li{margin-left:25px;}
+	#menu i{font-size:20px;}
+	#sub{width:18%; font-size:20px; margin-top:-30px;}
+	#sub li{width:100%; margin-left:-20px;}
+	#pro1{display:none;}
+	div.shops{
+		width:100%;
+		margin-left:-8px;
+		margin-top:-40%;}
+	div.shopimg1{padding:5px;}
+	div.hamsters{width:100%; margin-left:-8px;}
+	div.origin{width:100%; margin-left:-8px;}
+	div.origin h1{margin-left:10%;}
+	div.ori{padding:15px;}
+	div.ori img{height:70%; margin-top:30%;}
+	div.dd{width:100%; margin-left:-8px;}
+	div.dd h1{margin-left:2%;}
+	div.behaviors{width:100%; margin-left:-8px;}
+	div.behavior{padding:3px;}
+	div.mt{width:50%; margin-left:50%;}
+	div.feeds{width:100%; margin-left:-8px;}
+	div.feeds h1{margin-left:20%;}
+	div.feed{padding:3px;}
+	div.ss{width:100%; margin-left:-8px;}
+	div.types{width:100%; margin-left:-8px;}
+	div.types h1{margin-left:10%;}
+	div.type{padding:10px;}
+	div.type img{height:200px;}
+	div.end{width:100%; margin-left:-8px;}
+	div.end1 {
+		height:1150px;
+		margin:5px; 
+		border-radius:5% 5% 5% 5%;}
+	div.img{width:100%; margin-left:0px;}
+	
+	
+	#top{right:15%;}
+	div.footer{width:100%; margin-left:0px; height:100%;}
+	div.text{width:100%; margin-bottom:0px;}
+	div.text p{margin-top:0px; font-size:20px;}
+	div.text img{display:none;}
+	div.text iframe{height:200px;  width:60%;}
+	
+	}
+
+@media screen and (min-width:1024px) and (max-width:1366px){
+	body{width:100%; font-size:20px;}
+	div.header img{
+		width:15%;
+		height:5%;
+		margin-left:45%;	
+		}
+	#search input{margin-left:0px;}
+	#search input[type="Text"]:focus{width:200px;}
+	#menu{
+		height:50px;
+		font-size:24px;
+		margin-left:-50px;}
+	#menu li{margin-left:26px;}
+	#menu i{font-size:20px;}
+	#sub{width:18%; font-size:25px; margin-top:-30px;}
+	#sub li{width:100%; margin-left:-15px;}
+	#pro1{display:none;}
+	div.shops{
+		width:100%;
+		margin-left:-5px;
+		margin-top:-30%;}
+	div.shopimg1{padding:7px;}
+	div.hamsters{width:100%; margin-left:-8px;}
+	div.origin{width:100%; margin-left:-8px;}
+	div.origin h1{margin-left:25%;}
+	div.ori{width:49%; padding:5px;}
+	div.ori img{height:70%; margin-top:3%;}
+	div.dd{width:100%; margin-left:-8px;}
+	div.dd h1{margin-left:20%;}
+	div.behaviors{width:100%; margin-left:-8px;}
+	div.behavior{padding:5px;}
+	div.mt{width:30%; margin-left:67%;}
+	div.feeds{width:100%; margin-left:-8px;}
+	div.feeds h1{margin-left:30%;}
+	div.feed{padding:5px;}
+	div.ss{width:100%; margin-left:-8px;}
+	div.types{width:100%; margin-left:-8px;}
+	div.types h1{margin-left:25%;}
+	div.type{padding:15px;}
+	div.type img{height:200px;}
+	div.end{width:100%; margin-left:-8px;}
+	div.end1 {
+		height:850px;
+		margin:10px; 
+		border-radius:5% 5% 5% 5%;}
+	div.img{width:100%; margin-left:0px;}
+	
+	
+	#top{right:15%;}
+	div.footer{height:100%;margin-left:80px;}
+	div.text{width:20%; margin-bottom:50px;}
+	div.text p{margin-top:-10px;}
+	div.text img{height:30%;}
+	div.text iframe{height:140px;  width:100%;}
+	
+	}
+
+
+
